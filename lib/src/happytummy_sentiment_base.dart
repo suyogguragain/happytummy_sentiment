@@ -67,14 +67,14 @@ class Sentiment {
           }
         });
       }
-      var result = {
-        'score': score,
-        //'comparative': wordlist.isNotEmpty ? score / wordlist.length : 0,
-        //'words': wordlist,
-        //'good words': goodwords,
-        //'badword': badwords
-      };
-      return result;
+//       var result = {
+//         'score': score,
+//         //'comparative': wordlist.isNotEmpty ? score / wordlist.length : 0,
+//         //'words': wordlist,
+//         //'good words': goodwords,
+//         //'badword': badwords
+//       };
+      return score;
     } catch (e) {
       throw Exception(e);
     }
